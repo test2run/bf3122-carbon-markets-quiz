@@ -58,10 +58,10 @@
    "skill": "apply",
    "stem": "A shipping firm decides how many voyages to run by weighing freight revenue against fuel, crew and vessel costs. Its emissions impose health and climate costs on people who are not its customers. What is the precise consequence for its output decision?",
    "options": [
-    "Its output is unaffected: externalities change welfare but not private decisions.",
-    "It runs more voyages than is socially optimal, because the marginal damage never enters the cost of an extra voyage.",
-    "It runs fewer voyages than is socially optimal, because it bears costs that others cause.",
-    "It runs the socially optimal number of voyages but charges too high a price."
+    "Its output stays the same; externalities affect social welfare but not the firm's private cost calculus.",
+    "It runs more voyages than the socially optimal quantity, since marginal damage sits outside its own costs.",
+    "It runs fewer voyages than the socially optimal quantity, since bearing others' costs discourages activity.",
+    "It runs the socially optimal number of voyages, just at a price that overstates the true social cost."
    ],
    "answer": 1,
    "rationales": [
@@ -81,10 +81,10 @@
    "skill": "predict",
    "stem": "A regulator levies a charge on a steel producer exactly equal to the marginal damage its emissions cause. What happens to the firm's cost curve and output?",
    "options": [
-    "The social marginal cost curve shifts down to meet private marginal cost.",
-    "Both curves shift so quantity is unchanged and only the price rises.",
-    "The private marginal cost curve shifts up by the amount of the charge, so adjusted private marginal cost now equals social marginal cost and equilibrium output falls.",
-    "The demand curve shifts down, reducing the quantity consumers are willing to buy."
+    "The social marginal cost curve shifts down until it meets the unchanged private marginal cost curve.",
+    "Both curves shift together, so quantity stays the same and only the market price moves upward.",
+    "The private marginal cost curve shifts up to meet social marginal cost, and equilibrium output falls.",
+    "The demand curve shifts down, since consumers now buy less at every price than they did before."
    ],
    "answer": 2,
    "rationales": [
@@ -104,10 +104,10 @@
    "skill": "diagnose",
    "stem": "A minister argues that the national carbon tax has failed because the steel plant covered by it is still emitting. What is the strongest response within this course's framework?",
    "options": [
-    "The tax must have been set below marginal damage, which is why emissions persist.",
-    "Carbon taxes cannot reduce emissions at all; only an ETS can, because only a cap constrains quantity.",
-    "The objective is the socially efficient quantity of emissions, not zero; some emissions remain because at the efficient point the marginal benefit of production still exceeds the marginal social cost.",
-    "The minister is right: any remaining emissions show the price failed to correct the externality."
+    "The tax must have been set below marginal damage, since that is the only reason emissions would persist.",
+    "Carbon taxes cannot reduce emissions at all; only a cap on quantity, as under an ETS, actually constrains it.",
+    "The goal is the efficient quantity of emissions, not zero, so some emissions remain even at the right price.",
+    "The minister is correct: any emissions still occurring show the price failed to correct the externality."
    ],
    "answer": 2,
    "rationales": [
@@ -150,10 +150,10 @@
    "skill": "diagnose",
    "stem": "On the externality diagram, the vertical gap between private and social marginal cost is the marginal damage. A student concludes: the deadweight loss is therefore that gap multiplied by the total quantity produced. What is wrong?",
    "options": [
-    "Marginal damage is zero at the efficient quantity, so the product is always zero.",
-    "Deadweight loss equals the tax revenue the government would collect.",
-    "Deadweight loss is the area between social marginal cost and marginal benefit across only the over-produced units, that is the range between the efficient and the actual quantity.",
-    "Nothing is wrong; that product is the deadweight loss."
+    "Marginal damage is zero at the efficient quantity, so that product always works out to zero.",
+    "Deadweight loss is actually equal to the tax revenue the government collects on the taxed units.",
+    "Deadweight loss is the smaller area between social cost and benefit only across the over-produced units.",
+    "Nothing is wrong with the reasoning; that product is exactly what deadweight loss is defined as."
    ],
    "answer": 2,
    "rationales": [
@@ -173,10 +173,10 @@
    "skill": "apply",
    "stem": "A country has no carbon tax and no emissions trading scheme, but levies heavy excise duties on petrol and diesel. How should this be characterised?",
    "options": [
-    "As indirect carbon pricing: it raises the cost of emitting without being levied per tonne of CO2, so the effective price a firm faces combines direct and indirect measures.",
-    "As having no carbon price at all, since no instrument is denominated per tonne of CO2.",
-    "As a shadow price, since the per-tonne cost is implied rather than charged.",
-    "As an implicit price in the sense used by Moeller."
+    "As indirect carbon pricing, since it raises the cost of emitting without being levied per tonne of CO2.",
+    "As having no carbon price at all, since neither instrument is denominated in dollars per tonne of CO2.",
+    "As a shadow price, since the per-tonne cost it implies is never actually charged to anyone.",
+    "As an implicit price in Moeller's sense, since it is a retrospective measure of abatement cost."
    ],
    "answer": 0,
    "rationales": [
@@ -196,10 +196,10 @@
    "skill": "diagnose",
    "stem": "A carbon price makes goods more expensive, which is a cost to the economy, so on net it destroys value. Evaluate this claim.",
    "options": [
-    "The claim is wrong because producers absorb the charge entirely, so consumer prices do not rise.",
-    "The price rise is the objective: it re-prices goods to reflect costs society was already bearing, removing the deadweight loss from overproduction rather than creating one.",
-    "The claim is correct: the tax creates a deadweight loss by distorting an otherwise efficient market.",
-    "The claim is wrong because carbon tax revenue is returned to households, so there is no net cost."
+    "The claim is wrong, because producers absorb the whole charge and consumer prices do not move at all.",
+    "The price rise is the objective: it corrects an existing deadweight loss rather than creating a new one.",
+    "The claim is correct, since the tax distorts what would otherwise have been an efficient market outcome.",
+    "The claim is wrong, because carbon tax revenue is returned to households and so there is no net cost."
    ],
    "answer": 1,
    "rationales": [
@@ -219,10 +219,10 @@
    "skill": "compare",
    "stem": "A government needs certainty about the quantity of emissions in 2030 and is willing to accept uncertainty about what compliance costs firms. Which instrument fits, and why?",
    "options": [
-    "A baseline-and-credit mechanism, because credits are issued only for verified reductions.",
-    "An internal carbon price, because companies set it themselves against their own targets.",
-    "An emissions trading scheme, because the cap fixes the quantity directly and the price emerges from firms' abatement cost curves.",
-    "A carbon tax, because a known rate per tonne delivers a predictable emissions level."
+    "A baseline-and-credit mechanism, since credits are only issued once reductions have been verified.",
+    "An internal carbon price, since companies set their own level against their own internal targets.",
+    "An emissions trading scheme, since the cap fixes quantity directly and price emerges from trading.",
+    "A carbon tax, since a published rate per tonne delivers a predictable and stable level of emissions."
    ],
    "answer": 2,
    "rationales": [
@@ -242,10 +242,10 @@
    "skill": "apply",
    "stem": "Green Corp and Blue Corp each emit 100 units and are each capped at 50. Green's marginal abatement costs are low; Blue's are high. Trading between them is permitted. What happens, and why is the combined cost lower than without trade?",
    "options": [
-    "Both abate exactly to 50 and trading only redistributes profit without changing total cost.",
-    "Blue buys allowances instead of abating, so total emissions rise above the cap.",
-    "Green abates beyond its cap and sells its surplus allowances to Blue, so the same total of 100 units is met but abatement is concentrated where it is cheapest.",
-    "Blue abates more than required and sells the resulting allowances to Green, which has cheaper alternatives."
+    "Both firms abate down to exactly 50 units, and trading only redistributes profit, not total cost.",
+    "Blue buys allowances instead of abating at all, so total emissions rise above the combined cap.",
+    "Green abates beyond its cap and sells the surplus, concentrating abatement where it is cheapest.",
+    "Blue abates more than required and sells the surplus allowances on to Green at a discount."
    ],
    "answer": 2,
    "rationales": [
@@ -265,10 +265,10 @@
    "skill": "apply",
    "stem": "A firm's marginal abatement cost curve shows an LED retrofit at minus $40 per tonne, a motor upgrade at plus $15 per tonne and full electrification at plus $90 per tonne. A carbon price of $25 per tonne is introduced. Which measures are now cost-rational?",
    "options": [
-    "Only the LED retrofit.",
-    "All three measures.",
-    "None, until the price exceeds $90 and covers the most expensive lever.",
-    "The LED retrofit and the motor upgrade."
+    "Only the LED retrofit, since that is the only lever that was already cost-saving before the price.",
+    "All three measures, since a carbon price makes every abatement lever worth pursuing immediately.",
+    "None of them, until the price rises high enough to cover the most expensive lever available.",
+    "The LED retrofit and the motor upgrade, since both now cost less than emitting at the new price."
    ],
    "answer": 3,
    "rationales": [
@@ -288,10 +288,10 @@
    "skill": "apply",
    "stem": "A lecture annotation on the MACC diagram reads: self-interested firm would only abate until here, with the marker placed where the curve crosses zero cost. Why there, absent a carbon price?",
    "options": [
-    "Because past that point abatement becomes technically impossible for the firm.",
-    "Because the regulator caps the amount of abatement a firm may undertake.",
-    "Because measures to the right of the crossing point would not be considered additional.",
-    "Because past that point each additional tonne abated costs the firm money it has no reason to spend while emitting is free."
+    "Because measures past that point are technically impossible for the firm to carry out at all.",
+    "Because the regulator imposes a hard cap on how much abatement any single firm may undertake.",
+    "Because measures past that point would fail to count as additional under crediting rules.",
+    "Because measures past that point cost the firm money it has no reason to spend while emitting is free."
    ],
    "answer": 3,
    "rationales": [
@@ -311,10 +311,10 @@
    "skill": "predict",
    "stem": "A government doubles its carbon tax rate. What happens on a firm's marginal abatement cost curve?",
    "options": [
-    "The curve itself is unchanged, but the carbon price line rises, so more levers now sit below it and become worth implementing.",
-    "The curve shifts leftward as abatement becomes more urgent.",
-    "The curve flattens because the tax reduces the cost of abatement options.",
-    "The firm's emissions fall immediately to zero because emitting is now expensive."
+    "The curve itself is unchanged, but the price line rises so more levers now sit below it.",
+    "The curve shifts leftward, since abatement suddenly becomes more urgent for the firm to pursue.",
+    "The curve flattens out, since the tax itself lowers the cost of every abatement option.",
+    "The firm's emissions fall straight to zero, since emitting is now an expensive thing to do."
    ],
    "answer": 0,
    "rationales": [
@@ -334,10 +334,10 @@
    "skill": "compare",
    "stem": "Two firms in the same sector face the same carbon price. One cuts emissions far more than the other. Assuming both are rational cost-minimisers, what is the most likely explanation?",
    "options": [
-    "One firm is more genuinely committed to sustainability than the other.",
-    "The carbon price is not being applied consistently to the two firms.",
-    "One firm's emissions are Scope 1 and the other's are Scope 2.",
-    "They have different marginal abatement cost curves, so at the same price a different number of levers becomes worth doing."
+    "One firm is simply far more genuinely committed to sustainability than the other one happens to be.",
+    "The carbon price is evidently not being applied consistently between the two firms in question.",
+    "One firm's emissions simply happen to be Scope 1 while the other firm's emissions are Scope 2.",
+    "They have different abatement cost curves, so the same price unlocks a different number of levers."
    ],
    "answer": 3,
    "rationales": [
@@ -357,10 +357,10 @@
    "skill": "apply",
    "stem": "Singapore's carbon tax applies only to facilities above an emissions threshold, capturing roughly fifty facilities, yet those facilities account for the large majority of national emissions. What design principle does this illustrate?",
    "options": [
-    "Thresholds exist primarily to shield trade-exposed industry from carbon costs.",
-    "Narrow coverage of large point sources can capture most emissions while keeping monitoring and administration tractable.",
-    "A carbon tax must be economy-wide to have any meaningful effect.",
-    "Facilities below the threshold face a higher effective carbon price than those above it."
+    "Thresholds exist mainly to shield trade-exposed industries from facing any carbon cost at all.",
+    "Narrow coverage of large point sources can capture most emissions while keeping monitoring manageable.",
+    "A carbon tax has to be applied economy-wide before it can have any meaningful effect at all.",
+    "Facilities that sit below the threshold actually face a higher effective carbon price than those above."
    ],
    "answer": 1,
    "rationales": [
@@ -380,10 +380,10 @@
    "skill": "predict",
    "stem": "A legislator proposes launching an ETS with the cap set above current emissions, to ease the transition. What is the predictable result?",
    "options": [
-    "Emissions fall to the cap level immediately as firms comply.",
-    "The scheme functions in effect as a carbon tax at the prevailing allowance price.",
-    "The allowance price collapses towards zero because allowances are not scarce, so the scheme imposes no effective carbon price and drives no abatement.",
-    "The allowance price rises because firms hoard allowances against future tightening."
+    "Emissions fall straight to the new cap level immediately, since firms rush to comply with it.",
+    "The scheme functions exactly like a carbon tax, set at whatever the prevailing allowance price is.",
+    "The allowance price collapses toward zero, since a slack cap leaves allowances with no scarcity value.",
+    "The allowance price actually rises, since firms bank allowances against expected future tightening."
    ],
    "answer": 2,
    "rationales": [
@@ -403,10 +403,10 @@
    "skill": "compare",
    "stem": "Why can an ETS reach a given emissions target more cheaply than a rule requiring every firm to cut emissions by the same percentage?",
    "options": [
-    "An ETS covers more sectors than a command-and-control rule can.",
-    "An ETS raises revenue for the government, offsetting its cost to the economy.",
-    "Command-and-control rules cannot be enforced, so they achieve nothing.",
-    "A uniform cut forces high-cost firms up their steep curves while low-cost firms stop early; trading equalises marginal abatement cost across firms, achieving the same total at lower aggregate cost."
+    "An ETS simply happens to cover more sectors than any command-and-control rule is able to reach.",
+    "An ETS raises government revenue, which fully offsets its overall cost to the wider economy.",
+    "Command-and-control rules simply cannot be enforced in practice, so they achieve nothing at all.",
+    "Trading equalises marginal abatement cost across firms, hitting the same total at a lower overall cost."
    ],
    "answer": 3,
    "rationales": [
@@ -426,10 +426,10 @@
    "skill": "apply",
    "stem": "A finance director asks which instrument gives her firm more budget certainty for its five-year plan: a carbon tax or an ETS. What is the correct answer and reasoning?",
    "options": [
-    "Neither, since both leave the firm's carbon cost entirely unpredictable.",
-    "An ETS, because allowances can be banked across periods to smooth cost.",
-    "A carbon tax, because the cost per tonne is set administratively and known in advance, whereas an allowance price fluctuates with market conditions.",
-    "An ETS, because the cap is known in advance and therefore so is the firm's cost."
+    "Neither instrument, since both leave the firm's future carbon cost entirely unpredictable.",
+    "An ETS, since allowances can be banked across compliance periods to smooth out cost over time.",
+    "A carbon tax, since the rate per tonne is fixed administratively and known well in advance.",
+    "An ETS, since the cap itself is known in advance and so, by extension, is the firm's total cost."
    ],
    "answer": 2,
    "rationales": [
@@ -449,10 +449,10 @@
    "skill": "compare",
    "stem": "A factory receives units it must surrender one-for-one against its verified emissions. Separately, a reforestation project receives units for carbon it sequesters that would not otherwise have been sequestered. What is the essential distinction between the two instruments?",
    "options": [
-    "The first is issued by a government and the second by a private body, which is what makes them different classes.",
-    "The first can be traded and the second cannot.",
-    "The first is more expensive because compliance demand is mandatory.",
-    "The first is a permit to emit, measured against a cap; the second is a reward for a reduction or removal, measured against a counterfactual baseline."
+    "The first is issued by a government and the second by a private body, which is the real difference.",
+    "The first can be traded on a market while the second cannot legally change hands at all.",
+    "The first is simply more expensive, since compliance demand for it is mandatory rather than voluntary.",
+    "The first is a permit measured against a cap; the second is a reward measured against a baseline."
    ],
    "answer": 3,
    "rationales": [
@@ -472,10 +472,10 @@
    "skill": "apply",
    "stem": "Which of the following is closest in mechanics to a carbon credit rather than a carbon allowance?",
    "options": [
-    "A Certified Emission Reduction issued to a CDM project after verified reductions against a project baseline.",
-    "An EU ETS allowance held by a power generator.",
-    "An Assigned Amount Unit held by an Annex 1 country under the Kyoto Protocol.",
-    "A receipt for carbon tax paid by a liable facility."
+    "A Certified Emission Reduction issued to a CDM project once its reductions are verified.",
+    "An EU ETS allowance held by a power generator as part of its annual compliance obligation.",
+    "An Assigned Amount Unit held by an Annex 1 country under the Kyoto Protocol's targets.",
+    "A receipt confirming that a liable facility has paid its carbon tax bill in full."
    ],
    "answer": 0,
    "rationales": [
@@ -495,10 +495,10 @@
    "skill": "diagnose",
    "stem": "A trader argues that allowances and credits are the same product because each one lets its holder account for a tonne of emissions. What is the strongest objection?",
    "options": [
-    "Allowances never expire while credits always do.",
-    "Their environmental meaning differs: surrendering an allowance means a tonne was permitted within a fixed cap, while retiring a credit means a tonne was claimed to have been avoided or removed elsewhere, a claim that depends on the baseline being correct.",
-    "They trade on different exchanges and so cannot be compared.",
-    "Credits cannot be traded, so they are not comparable products."
+    "Allowances never expire at all, whereas every single credit carries a fixed expiry date by design.",
+    "Surrendering an allowance means a permitted tonne within a cap; retiring a credit rests on a baseline claim.",
+    "They simply happen to trade on different exchanges, which makes any direct comparison meaningless.",
+    "Credits cannot actually be traded at all in any market, so the comparison itself does not hold up."
    ],
    "answer": 1,
    "rationales": [
@@ -518,10 +518,10 @@
    "skill": "apply",
    "stem": "Two forestry projects operate in the same country. Project A plants trees on degraded grassland. Project B pays landowners not to clear an existing forest that is under active deforestation pressure. How do their baselines and issuance bases differ?",
    "options": [
-    "Neither is eligible for credits, because forestry baselines cannot be established.",
-    "A has a no-trees baseline and issues on the quantity of CO2 removed by new growth; B has a baseline of the forest that would otherwise be lost and issues on the CO2 that was not emitted.",
-    "Both have a no-trees baseline and both issue on the quantity of carbon removed.",
-    "B is the removal project and A is the avoidance project."
+    "Neither project is eligible for credits, since forestry baselines cannot be reliably established.",
+    "A's baseline is no trees, crediting removal; B's baseline is the forest lost, crediting avoidance.",
+    "Both projects share a no-trees baseline and both issue credits for carbon removed.",
+    "B is actually the removal project here, while A is the one crediting avoidance."
    ],
    "answer": 1,
    "rationales": [
@@ -541,10 +541,10 @@
    "skill": "predict",
    "stem": "The forest conservation project above has been issuing credits for three years. A new national logging ban then collapses deforestation pressure across the region. What follows for the project's credit claim?",
    "options": [
-    "The credits must be converted into allowances under the national scheme.",
-    "The counterfactual loss shrinks, so the project's genuine avoided emissions fall; continuing to issue against the original baseline would over-credit.",
-    "Nothing changes, because the baseline is fixed at registration and applies for the crediting period.",
-    "The project converts into a removal project, since the standing forest continues to sequester carbon."
+    "The credits must now be converted into allowances under the country's national scheme.",
+    "The counterfactual loss shrinks, so issuing further credits at the old baseline would over-credit.",
+    "Nothing changes, since the baseline is fixed at registration for the whole crediting period.",
+    "The project converts into a removal project, since the standing forest keeps sequestering carbon."
    ],
    "answer": 1,
    "rationales": [
@@ -564,10 +564,10 @@
    "skill": "compare",
    "stem": "The course describes carbon taxes and emissions trading schemes as sticks, and baseline-and-credit mechanisms as a carrot. What is the substance behind the metaphor?",
    "options": [
-    "Credits are cheaper per tonne than tax payments, so firms prefer them.",
-    "Credits are mandatory for covered entities while taxes are optional.",
-    "Only the stick instruments actually reduce emissions.",
-    "Tax and ETS impose a cost on the act of emitting, while crediting pays an entity for taking an action it was under no obligation to take."
+    "Credits simply cost less per tonne than tax payments do, which is why firms prefer them.",
+    "Credits are mandatory for covered entities, whereas paying the tax remains entirely optional.",
+    "Only the stick instruments, tax and ETS, actually succeed in reducing emissions at all.",
+    "Tax and ETS impose a cost on emitting, while crediting pays for action nobody was obliged to take."
    ],
    "answer": 3,
    "rationales": [
@@ -587,10 +587,10 @@
    "skill": "apply",
    "stem": "A firm covered by an emissions trading scheme wants to meet part of its obligation using carbon credits rather than allowances. What must be true?",
    "options": [
-    "The credit must have been issued by the same government that runs the scheme.",
-    "The firm must first retire the credits in the voluntary market and then present the retirement records.",
-    "The scheme's own rules must expressly permit surrendering those credits, since eligibility is a design choice of the compliance scheme rather than an inherent property of the credit.",
-    "Nothing in particular, because credits and allowances are interchangeable once verified."
+    "The credit must have been issued by the very same government that runs the trading scheme.",
+    "The firm must retire the credits voluntarily first and then present the retirement records.",
+    "The scheme's own rules must expressly permit surrendering those credits against the obligation.",
+    "Nothing in particular, since credits and allowances become interchangeable once verified."
    ],
    "answer": 2,
    "rationales": [
@@ -610,10 +610,10 @@
    "skill": "diagnose",
    "stem": "A country runs a domestic ETS covering its power sector and separately hosts crediting projects that sell internationally. What double-counting risk arises?",
    "options": [
-    "A tonne reduced inside the ETS-covered sector could both free up a domestic allowance and be sold abroad as a credit, so the same reduction is counted twice unless the country adjusts its own accounts.",
-    "There is no risk, because allowances and credits are distinct instruments in separate markets.",
-    "The domestic allowance price will rise as credits compete with allowances.",
-    "The credits automatically become allowances within the domestic scheme."
+    "The same tonne could be counted in both places unless the country adjusts its own accounts.",
+    "There is no risk at all, since allowances and credits sit in entirely separate markets.",
+    "The domestic allowance price will simply rise as credits start to compete with allowances.",
+    "The credits automatically convert into allowances within the country's domestic scheme."
    ],
    "answer": 0,
    "rationales": [
@@ -633,10 +633,10 @@
    "skill": "apply",
    "stem": "What happens when a carbon credit is retired, and why does the course treat retirement as a better demand signal than transaction volume?",
    "options": [
-    "It is sold onward to a final buyer, which is recorded as the end of the trading chain.",
-    "It expires automatically after a fixed validity period set by the standard body.",
-    "It is converted into a compliance allowance within the buyer's jurisdiction.",
-    "It is permanently cancelled in the registry so the environmental claim is used once and cannot be resold, which means only a buyer actually making a claim has reason to do it."
+    "It is sold onward to a final buyer, marking the formal end of the credit's trading chain.",
+    "It expires automatically once a fixed validity period set by the standard body has passed.",
+    "It is converted into a compliance allowance usable within the buyer's own jurisdiction.",
+    "It is permanently cancelled in the registry, so only an actual claim gives reason to do it."
    ],
    "answer": 3,
    "rationales": [
@@ -656,10 +656,10 @@
    "skill": "apply",
    "stem": "A company is appraising a twenty-year terminal investment and wants to know whether it still clears its hurdle rate if carbon costs rise substantially. No money should move between business units. Which form of internal carbon price fits?",
    "options": [
-    "An internal carbon fee, since a real charge would show the true cost of the project.",
-    "An implicit price, calculated from the cost of the abatement measures the firm has implemented.",
-    "An internal emissions trading scheme allocating permits between business units.",
-    "A shadow price: an explicit dollar-per-tonne figure used in appraisal with no actual transfer, suited to investment and divestment decisions and sensitivity analysis."
+    "An internal carbon fee, since a real charge would reveal the true cost of the project.",
+    "An implicit price, calculated from the cost of abatement measures the firm has already taken.",
+    "An internal emissions trading scheme, allocating tradable permits between business units.",
+    "A shadow price, an explicit figure used in appraisal with no cash actually changing hands."
    ],
    "answer": 3,
    "rationales": [
@@ -679,10 +679,10 @@
    "skill": "apply",
    "stem": "A company wants business unit heads to actually change operating behaviour this year: fewer flights, more renewable procurement, process changes. Which form of internal carbon price fits, and why?",
    "options": [
-    "An implicit price, because it reveals what the firm's abatement has cost per tonne.",
-    "Nothing internal is needed if the company already faces an external carbon tax.",
-    "An internal carbon fee, because a real charge lands on the unit's profit and loss and its budget, creating a direct financial incentive that a notional price does not.",
-    "A shadow price, because visibility of the carbon cost is enough to change behaviour."
+    "An implicit price, since it reveals what the firm's past abatement has cost per tonne.",
+    "Nothing internal is needed, since an external carbon tax already covers this ground.",
+    "An internal carbon fee, since a real charge on the unit's budget creates a direct incentive.",
+    "A shadow price, since visibility of the carbon cost alone is enough to shift behaviour."
    ],
    "answer": 2,
    "rationales": [
@@ -702,10 +702,10 @@
    "skill": "compare",
    "stem": "At year end, a firm calculates the average cost per tonne of the abatement measures it actually implemented during the year. What is this, and what is it good for?",
    "options": [
-    "An implicit price, determined retroactively from the measures taken, useful for benchmarking, evaluating cost and communication, but incapable of steering a decision already made.",
-    "A shadow price, because no money changed hands in calculating it.",
-    "An internal carbon fee, since it reflects real spending on abatement.",
-    "The firm's external carbon tax liability expressed per tonne."
+    "An implicit price, derived retroactively, useful for benchmarking rather than for steering decisions.",
+    "A shadow price, since no actual money ever changed hands when arriving at this particular figure.",
+    "An internal carbon fee, since it reflects real money the firm actually spent on abatement this year.",
+    "The firm's external carbon tax liability, simply expressed here on a straightforward per-tonne basis."
    ],
    "answer": 0,
    "rationales": [
@@ -725,10 +725,10 @@
    "skill": "diagnose",
    "stem": "A sustainability head proposes setting the company's internal carbon fee equal to its view of the future external carbon price. What is the conceptual objection?",
    "options": [
-    "Internal fees must always be set below the prevailing external tax rate to avoid double charging.",
-    "A carbon fee cannot be imposed at all in a jurisdiction with no external carbon tax.",
-    "That construction principle belongs to the shadow price, which should reflect the company's view of the external price so investments are stress-tested; a real fee should reflect the company's own cost to decarbonise, since it funds and incentivises internal action.",
-    "There is no objection; both forms of internal carbon price should track the expected external price."
+    "Internal fees must always sit below the prevailing external tax rate to avoid double charging.",
+    "A carbon fee cannot be imposed at all in a jurisdiction with no external carbon tax in place.",
+    "That construction belongs to the shadow price; a real fee should reflect the cost to decarbonise.",
+    "There is no objection, since both forms of internal price should track the external price view."
    ],
    "answer": 2,
    "rationales": [
@@ -748,10 +748,10 @@
    "skill": "apply",
    "stem": "A firm operating solely in a jurisdiction with no carbon tax and no ETS argues that it therefore cannot adopt an internal carbon fee. Evaluate.",
    "options": [
-    "Incorrect, but only for firms that report to CDP and must disclose an internal price.",
-    "Incorrect: an internal fee is the company's own instrument and can be imposed regardless of whether an external carbon price exists.",
-    "Correct: an internal fee exists to mirror and recover an external liability, so with no liability there is nothing to mirror.",
-    "Correct: without an external tax there is no dollar-per-tonne reference the firm could legitimately use."
+    "Incorrect, but only for firms that report to CDP and are required to disclose an internal price.",
+    "Incorrect, since an internal fee is the firm's own instrument regardless of external regulation.",
+    "Correct, since an internal fee exists purely to mirror and recover an external liability.",
+    "Correct, since without an external tax there is no legitimate dollar-per-tonne reference to use."
    ],
    "answer": 1,
    "rationales": [
@@ -771,10 +771,10 @@
    "skill": "apply",
    "stem": "A carmaker builds a new electric vehicle plant. The decision reallocates capital to a new segment, it helps the company navigate vehicle emissions regulation, and it is publicised as evidence of climate leadership. Map these to the three categories of rationale used in the course.",
    "options": [
-    "Capital reallocation is Internal Operational; navigating the regulation is External; leadership positioning is Internal Strategic.",
-    "All three strands are External, since they are all ultimately driven by regulation.",
-    "All three are Internal Strategic, because the plant is fundamentally a positioning exercise.",
-    "The categories do not apply, because they describe only firms already covered by an emissions trading scheme."
+    "Capital reallocation is Operational; navigating the regulation is External; positioning is Strategic.",
+    "All three strands are External, since regulation is ultimately what drives every one of them.",
+    "All three strands are Strategic, since the whole plant is fundamentally a positioning exercise.",
+    "The categories do not apply at all, since they only describe firms already covered by an ETS."
    ],
    "answer": 0,
    "rationales": [
@@ -794,10 +794,10 @@
    "skill": "compare",
    "stem": "A firm adopts an internal carbon price and cites increased employee awareness and enhanced credibility of its transition plan as the main benefits. Which rationale dominates, and what would make it operational instead?",
    "options": [
-    "Strategic, because it concerns positioning and culture; it would be operational if the price were actually steering capital allocation, research spending or process-level emission cuts.",
-    "Operational, because employee behaviour is an operating matter, and it would be strategic only if it changed the firm's public messaging.",
-    "External, because credibility is assessed by investors and other outside stakeholders.",
-    "Neither, because these benefits are too intangible to fall within the framework."
+    "Strategic, concerning positioning and culture; it turns operational once it steers capital or R&D.",
+    "Operational, since employee behaviour is an operating matter, not a strategic one.",
+    "External, since credibility with investors is assessed by outside stakeholders, not the firm itself.",
+    "Neither category applies, since these benefits are too intangible to fit the framework."
    ],
    "answer": 0,
    "rationales": [
@@ -817,10 +817,10 @@
    "skill": "apply",
    "stem": "A firm adopts an internal carbon price shortly after its regulator makes TCFD-aligned disclosure mandatory. What is the causal link?",
    "options": [
-    "TCFD does not mandate an internal carbon price, but it requires firms to disclose climate risks and the metrics used to assess them, so firms adopt one as that metric, making regulation an external driver.",
-    "TCFD explicitly requires covered firms to operate an internal carbon price.",
-    "TCFD prescribes the dollar-per-tonne level that disclosing firms must use.",
-    "The timing is coincidental; disclosure rules and internal pricing are unrelated."
+    "TCFD drives adoption indirectly, by requiring disclosure of the metrics firms use, making it External.",
+    "TCFD explicitly requires every covered firm to operate a formal internal carbon price.",
+    "TCFD prescribes the exact dollar-per-tonne level that disclosing firms are required to use.",
+    "The timing is coincidental; disclosure rules and internal carbon pricing are unrelated matters."
    ],
    "answer": 0,
    "rationales": [
@@ -840,10 +840,10 @@
    "skill": "apply",
    "stem": "Two firms both use a price of $100 per tonne. Firm A applies it to Scope 1 only at group level. Firm B applies it across Scopes 1, 2 and 3 and requires procurement to use it when selecting suppliers. Using the four-dimensional framework, where do they differ?",
    "options": [
-    "In height, since B is evidently applying a more demanding price.",
-    "In time only, since B is further along its implementation path.",
-    "Nowhere: the dimensions describe the same price applied in different places, so the mechanisms are equivalent.",
-    "In width and depth: the price level is identical, but B covers more of the value chain and pushes the price further into actual decisions, including decisions about its suppliers."
+    "In height, since Firm B is evidently running a more financially demanding price than Firm A.",
+    "In time only, since Firm B is simply further along in its implementation than Firm A.",
+    "Nowhere really, since the same headline price applied differently is functionally equivalent.",
+    "In width and depth, since B reaches further across the value chain and into real decisions."
    ],
    "answer": 3,
    "rationales": [
@@ -863,10 +863,10 @@
    "skill": "apply",
    "stem": "A firm launches its internal carbon price at a deliberately low level applied across a broad set of activities, planning to raise it each year. Which dimension is it managing, and what is the trade-off?",
    "options": [
-    "Width: it is narrowing the scope of emissions covered to make the launch manageable.",
-    "Height only: the other three dimensions are fixed once set.",
-    "Time: it is sequencing how height and coverage evolve, buying internal acceptability now at the cost of weak near-term influence on decisions.",
-    "Depth: it is deepening influence gradually across the organisation."
+    "Width, since it is narrowing the scope of emissions covered to keep the launch manageable.",
+    "Height only, since the other three dimensions are fixed for good once a price is set.",
+    "Time, sequencing how height and coverage evolve at the cost of weak near-term influence now.",
+    "Depth, since influence is being deepened gradually across the organisation from the start."
    ],
    "answer": 2,
    "rationales": [
@@ -886,10 +886,10 @@
    "skill": "diagnose",
    "stem": "A firm discloses an internal carbon price of $150 per tonne. It is a shadow price, applied only to capital projects above half a billion dollars, with no central team responsible for it and no application to the value chain. What is an investor's fair conclusion?",
    "options": [
-    "It must be an internal fee, because no firm would set a notional price that high.",
-    "Height is high but width and depth are shallow, so the price influences very few decisions; a high headline figure is not evidence of a meaningful mechanism.",
-    "This is a strong internal carbon price, since the height exceeds most external carbon prices.",
-    "This is an implicit price, since it is derived rather than charged."
+    "It must be an internal fee, since no firm would ever set a purely notional price that high.",
+    "Height is high but width and depth are shallow, so very few decisions are actually influenced.",
+    "This counts as a strong internal carbon price, since its height exceeds most external prices.",
+    "This must be an implicit price, since it is derived after the fact rather than charged."
    ],
    "answer": 1,
    "rationales": [
@@ -909,10 +909,10 @@
    "skill": "diagnose",
    "stem": "Why is a global climate agreement structurally difficult to reach even when every government accepts the science?",
    "options": [
-    "Because the climate is a global public good: mitigation is paid for nationally while the benefit is non-excludable, shared by all and accruing largely in the future, so each country gains by having others act.",
-    "Because the underlying climate science remains too uncertain for countries to commit.",
-    "Because there is no reliable way to measure national emissions.",
-    "Because developing countries now emit more in aggregate than developed ones."
+    "Because the climate is a global public good, so nations gain by letting others bear the cost of acting.",
+    "Because the underlying climate science remains too uncertain for governments to commit to anything.",
+    "Because there is still no reliable way for countries to measure their own national emissions.",
+    "Because developing countries now emit more in total, in aggregate, than developed ones do."
    ],
    "answer": 0,
    "rationales": [
@@ -932,10 +932,10 @@
    "skill": "compare",
    "stem": "Kyoto imposed legally binding targets on a limited set of countries. Paris relies on voluntary, self-determined contributions and attracted far wider participation. What does this trade-off reveal?",
    "options": [
-    "Paris is also legally binding, so no trade-off arises.",
-    "Kyoto failed for administrative reasons rather than anything to do with its obligation structure.",
-    "There is a trade-off between the depth of legal obligation and the breadth of participation; Paris bought near-universal coverage by relinquishing binding targets.",
-    "Binding legal obligations always attract wider participation because they create certainty."
+    "Paris is also legally binding in substance, so no real trade-off exists between the two treaties.",
+    "Kyoto failed purely for administrative reasons, unrelated to how its obligations were structured.",
+    "There is a trade-off between depth of obligation and breadth of participation across the two treaties.",
+    "Binding legal obligations always attract wider participation, since they create real certainty."
    ],
    "answer": 2,
    "rationales": [
@@ -955,10 +955,10 @@
    "skill": "apply",
    "stem": "Which design feature of the Kyoto Protocol most directly expressed the principle of common but differentiated responsibilities?",
    "options": [
-    "The requirement that CDM projects pass through validation and verification before credits were issued.",
-    "The creation of a central board to oversee the crediting mechanism.",
-    "Binding emissions targets on Annex 1 (high-income) countries only, with no binding obligation on non-Annex 1 countries.",
-    "The use of a common base year against which all emissions were measured."
+    "The requirement that CDM projects pass validation and verification before credits are issued.",
+    "The creation of a central executive board to oversee and administer the crediting mechanism.",
+    "Binding targets placed on Annex 1 countries only, with no obligation on non-Annex 1 countries.",
+    "The use of one common base year against which every country's emissions were measured."
    ],
    "answer": 2,
    "rationales": [
@@ -978,10 +978,10 @@
    "skill": "diagnose",
    "stem": "A US administration rejected the Kyoto Protocol on the grounds that it would damage the domestic economy and imposed no binding obligation on major developing emitters. Which feature of the climate challenge does this objection most directly invoke?",
    "options": [
-    "Fairness and free-riding: the complaint is that bearing costs while others remain unconstrained is both economically damaging and environmentally ineffective.",
-    "The difficulty of establishing scientific consensus about warming.",
-    "Disagreement about the optimal level of emissions given economic growth.",
-    "Concerns about the permanence of emissions reductions achieved under the treaty."
+    "Fairness and free-riding, since bearing costs while others stay unconstrained feels costly and futile.",
+    "The difficulty of establishing genuine scientific consensus around the reality of global warming.",
+    "Disagreement over what the truly optimal level of emissions should be, given economic growth needs.",
+    "Concerns over how permanent the emissions reductions achieved under the treaty would actually be."
    ],
    "answer": 0,
    "rationales": [
@@ -1001,10 +1001,10 @@
    "skill": "compare",
    "stem": "Under Kyoto, an Annex 1 country could acquire CERs from a CDM project abroad, or buy surplus AAUs from another Annex 1 country. In the terms introduced in Week 1, what are these two mechanisms respectively?",
    "options": [
-    "Both are baseline-and-credit mechanisms, since both reward countries that emit less than expected.",
-    "The CDM is a baseline-and-credit mechanism; AAU trading is a cap-and-trade mechanism operating between countries.",
-    "Both are cap-and-trade mechanisms, since both involve tradable units held by countries.",
-    "The CDM is cap-and-trade and AAU trading is baseline-and-credit."
+    "Both are baseline-and-credit mechanisms, since both reward countries for emitting less than expected.",
+    "The CDM is baseline-and-credit; AAU trading is a cap-and-trade mechanism run between countries.",
+    "Both are cap-and-trade mechanisms, since both involve tradable units that countries hold.",
+    "The CDM is cap-and-trade, while AAU trading is actually the baseline-and-credit mechanism."
    ],
    "answer": 1,
    "rationales": [
@@ -1024,10 +1024,10 @@
    "skill": "diagnose",
    "stem": "Several Annex 1 countries ended a Kyoto commitment period holding large AAU surpluses, which other countries then bought cheaply to meet their own targets. What does this reveal about the design?",
    "options": [
-    "AAUs were never intended to be tradable, so the transactions were an unintended loophole.",
-    "The real problem was the absence of corresponding adjustments to prevent double counting.",
-    "The targets were set too loosely: when the cap does not bind, surplus units are abundant and cheap, so compliance is achieved by purchase rather than by abatement.",
-    "The flaw lay in permitting trading at all, since trading always undermines environmental targets."
+    "AAUs were never meant to be tradable, so these transactions were really an unintended loophole.",
+    "The real problem was the absence of any corresponding adjustment to prevent double counting.",
+    "The targets themselves were set too loosely, leaving surplus units abundant, cheap and easy to buy.",
+    "The flaw lay in allowing trading at all, since trading always undermines environmental ambition."
    ],
    "answer": 2,
    "rationales": [
@@ -1047,10 +1047,10 @@
    "skill": "apply",
    "stem": "Why was the CDM structured so that Annex 1 countries invested in projects located in non-Annex 1 countries?",
    "options": [
-    "Because the UNFCCC required geographic diversification of mitigation investment.",
-    "Because abatement was often cheaper there, given lower input and labour costs, so the same tonne could be reduced for less and investment was channelled to where it went furthest.",
-    "Because non-Annex 1 countries had binding targets of their own to meet and needed the finance.",
-    "Because Annex 1 countries had already exhausted their domestic abatement options."
+    "Because the UNFCCC formally required geographic diversification of mitigation investment.",
+    "Because abatement was often genuinely cheaper there, given lower input and labour costs.",
+    "Because non-Annex 1 countries had binding targets of their own that they needed financing to meet.",
+    "Because Annex 1 countries had already exhausted every domestic abatement option available to them."
    ],
    "answer": 1,
    "rationales": [
@@ -1070,10 +1070,10 @@
    "skill": "apply",
    "stem": "A student is told that the Paris Agreement Crediting Mechanism works like the CDM but under Paris. Which parallel is being drawn, and what is the institutional counterpart?",
    "options": [
-    "Both are bilateral arrangements negotiated directly between a buyer and a host country.",
-    "Both issue allowances to countries against a fixed emissions cap.",
-    "Neither requires host country approval of the activity.",
-    "Both are centralised crediting mechanisms administered by a governing body: Kyoto's Executive Board corresponds to Paris's Supervisory Body."
+    "Both are bilateral arrangements negotiated directly between a single buyer and a host country.",
+    "Both mechanisms issue tradable allowances to countries against a fixed national emissions cap.",
+    "Neither mechanism actually requires the host country to approve the activity in question.",
+    "Both are centralised mechanisms; Kyoto's Executive Board corresponds to Paris's Supervisory Body."
    ],
    "answer": 3,
    "rationales": [
@@ -1093,10 +1093,10 @@
    "skill": "apply",
    "stem": "Country X's NDC states a 30% unconditional and a 40% conditional reduction. A prospective buyer assumes it can rely on the 40% figure when assessing how much mitigation the country will have spare. Why is that unsafe?",
    "options": [
-    "Both figures are equally binding, but the higher one is subject to a later review.",
-    "Conditional targets are set by the UNFCCC rather than by the country itself.",
-    "Conditional targets are legally binding while unconditional ones are aspirational.",
-    "The unconditional figure is what the country commits to achieve using its own resources; the conditional increment depends on external finance or technology materialising, so it is not a firm commitment."
+    "Both figures carry equal weight, but the higher one is simply subject to a later formal review.",
+    "Conditional targets are actually set by the UNFCCC itself rather than by the country in question.",
+    "Conditional targets are legally binding, while the unconditional figure is merely aspirational.",
+    "The unconditional figure is the firm commitment; the conditional increment depends on outside support."
    ],
    "answer": 3,
    "rationales": [
@@ -1116,10 +1116,10 @@
    "skill": "diagnose",
    "stem": "The Paris Agreement has no mechanism for penalising a country that misses its target. What actually pressures countries to raise ambition over time?",
    "options": [
-    "The five-yearly ratchet combined with transparency and peer pressure: countries must submit progressively stronger contributions and do so in full view of each other, substituting reputational cost for legal sanction.",
-    "Financial penalties levied by the UNFCCC on countries that fall short.",
-    "Trade sanctions written into the agreement against non-compliant parties.",
-    "Nothing, since without enforcement the agreement contains no ambition mechanism at all."
+    "A five-yearly ratchet combined with transparency, substituting reputational cost for legal sanction.",
+    "Financial penalties that the UNFCCC levies directly on any country that falls short of its target.",
+    "Trade sanctions that are written explicitly into the agreement against non-compliant parties.",
+    "Nothing at all, since without enforcement the agreement contains no real ambition mechanism."
    ],
    "answer": 0,
    "rationales": [
@@ -1139,10 +1139,10 @@
    "skill": "apply",
    "stem": "Country H hosts a solar project and sells the resulting units to Country B, which counts them towards its own contribution. H makes no corresponding adjustment. What goes wrong?",
    "options": [
-    "The same tonne is counted in both countries' accounts, so global reported progress overstates the mitigation that actually occurred.",
-    "Country B is barred from purchasing the units in the first place.",
-    "Country H forfeits the revenue from the sale.",
-    "The project is rendered non-additional by the transfer."
+    "The same tonne ends up counted in both countries' accounts, overstating true global progress.",
+    "Country B is simply barred outright from purchasing the units from Country H in the first place.",
+    "Country H forfeits all of the revenue it would otherwise have earned from the sale.",
+    "The project itself is rendered non-additional purely as a result of the transfer taking place."
    ],
    "answer": 0,
    "rationales": [
@@ -1162,10 +1162,10 @@
    "skill": "apply",
    "stem": "Singapore negotiates a bilateral Implementation Agreement with a host country before any credits change hands. Beyond project logistics, what is the central thing it secures?",
    "options": [
-    "Accreditation of the host country's projects by an integrity body.",
-    "The host country's commitment to apply corresponding adjustments, alongside registry, reporting and eligibility arrangements, without which the credits cannot count towards Singapore's target.",
-    "A guaranteed price per credit for the duration of the agreement.",
-    "Exclusive rights over all carbon credits generated in that country."
+    "Accreditation of the host country's own projects by an internationally recognised integrity body.",
+    "A binding commitment from the host to apply corresponding adjustments alongside registry terms.",
+    "A guaranteed fixed price per credit that will hold for the full duration of the agreement.",
+    "Exclusive rights over every carbon credit that the host country generates going forward."
    ],
    "answer": 1,
    "rationales": [
@@ -1185,10 +1185,10 @@
    "skill": "compare",
    "stem": "Why can two different Article 6.2 arrangements impose materially different requirements, while all Article 6.4 activities follow a single set of rules?",
    "options": [
-    "Article 6.2 covers removals only while 6.4 covers reductions, so the requirements naturally differ.",
-    "Article 6.2 is bilateral, so each pair of countries negotiates its own terms, whereas 6.4 is centralised under a Supervisory Body that approves methodologies, registers activities and runs the registry.",
-    "Article 6.2 is administered by the Supervisory Body while 6.4 is left to national discretion.",
-    "Only Article 6.4 requires corresponding adjustments, which is why 6.2 arrangements vary."
+    "Article 6.2 covers removals only while 6.4 covers reductions, so the requirements naturally diverge.",
+    "Article 6.2 is bilateral and individually negotiated, while 6.4 is centralised under one governing body.",
+    "Article 6.2 is administered by the Supervisory Body, while 6.4 is left entirely to national discretion.",
+    "Only Article 6.4 actually requires a corresponding adjustment, which is why 6.2 terms vary so much."
    ],
    "answer": 1,
    "rationales": [
@@ -1208,10 +1208,10 @@
    "skill": "diagnose",
    "stem": "A host country authorises the transfer of a large share of its cheapest mitigation potential in the early years of its contribution period. What risk does it run?",
    "options": [
-    "Having corresponding-adjusted those tonnes away, it must meet its own target using its remaining and more expensive options, and may fail to comply.",
-    "It will not be paid for the units it has authorised.",
-    "Its credits will lose recognition from voluntary market integrity bodies.",
-    "Buyers will end up double counting the units."
+    "Having sold its cheapest mitigation away, it must meet its own target with pricier remaining options.",
+    "It simply will not be paid at all for the units that it has already authorised for transfer.",
+    "Its credits will lose recognition from the various voluntary market integrity bodies.",
+    "Buyers of the units will end up unknowingly double counting the mitigation they purchased."
    ],
    "answer": 0,
    "rationales": [
@@ -1231,10 +1231,10 @@
    "skill": "apply",
    "stem": "Which strategy most directly protects a host country's own contribution pathway against the risk of overselling?",
    "options": [
-    "Charging a fee on each unit transferred and recycling the proceeds into further mitigation.",
-    "Signing implementation agreements with a larger number of buyer countries.",
-    "Routing all transfers through Article 6.4 rather than Article 6.2.",
-    "Excluding from transfer eligibility the activity types the country is relying on to meet its own target."
+    "Charging a fee on every unit transferred and recycling the proceeds into further mitigation.",
+    "Signing implementation agreements with as large a number of buyer countries as possible.",
+    "Routing every single transfer through Article 6.4 rather than through Article 6.2.",
+    "Excluding from transfer eligibility the activity types the country needs for its own target."
    ],
    "answer": 3,
    "rationales": [
@@ -1254,10 +1254,10 @@
    "skill": "apply",
    "stem": "A host country levies a fee on every unit transferred abroad and directs the proceeds to a domestic mitigation fund. How does this address the overselling risk?",
    "options": [
-    "It reduces foreign demand to zero, eliminating transfers altogether.",
-    "It makes the resulting units eligible for use in buyer countries' compliance schemes.",
-    "It converts transfers into financing for additional domestic mitigation, partially replacing the mitigation the country has given away.",
-    "It removes the need for a corresponding adjustment on the transferred units."
+    "It reduces foreign demand for the units all the way down to zero, ending transfers entirely.",
+    "It makes the resulting units automatically eligible for use in buyer countries' own schemes.",
+    "It converts transfers into financing for extra domestic mitigation, partly replacing what was sold.",
+    "It removes the legal requirement for a corresponding adjustment on the units transferred."
    ],
    "answer": 2,
    "rationales": [
@@ -1277,10 +1277,10 @@
    "skill": "apply",
    "stem": "A Singapore-based facility liable for carbon tax wants to use international carbon credits to reduce its cash tax payment. What must be true of those credits?",
    "options": [
-    "They must be purchased directly from the Singapore government rather than on the market.",
-    "They must satisfy Singapore's eligibility criteria and, where traded under Article 6.2, come from a host country with which Singapore has a bilateral agreement, with a corresponding adjustment applied.",
-    "Any credit issued by a recognised voluntary standard body qualifies.",
-    "They must be issued specifically by Verra, as the largest standard body."
+    "They must be purchased directly from the Singapore government itself rather than on the open market.",
+    "They must meet Singapore's own criteria and, where relevant, sit under a bilateral agreement with a CA.",
+    "Any credit issued by a recognised voluntary standard body automatically qualifies for use here.",
+    "They must specifically be issued by Verra, simply because it happens to be the largest standard body."
    ],
    "answer": 1,
    "rationales": [
@@ -1300,10 +1300,10 @@
    "skill": "diagnose",
    "stem": "Why does a buyer government care specifically about the corresponding adjustment, rather than simply about whether the underlying project is of high quality?",
    "options": [
-    "Because the credits are being used against its own national target, so without the host's adjustment the tonne is counted twice internationally and the credit fails for that purpose regardless of project quality.",
-    "Because a corresponding adjustment lowers the price the buyer has to pay.",
-    "Because the adjustment substitutes for independent verification of the project.",
-    "Because voluntary market rules require an adjustment for all credits."
+    "Because without the host's adjustment the tonne is counted twice, whatever the project quality.",
+    "Because a corresponding adjustment tends to lower the price that the buyer ends up paying.",
+    "Because the adjustment substitutes entirely for independent verification of the project itself.",
+    "Because voluntary market rules already require an adjustment to be made for every credit."
    ],
    "answer": 0,
    "rationales": [
@@ -1323,10 +1323,10 @@
    "skill": "apply",
    "stem": "Singapore's climate strategy rests on domestic abatement, a domestic carbon price and cross-border solutions. A critic calls the third pillar paying others to do the work. What is the strongest defence within the course framing?",
    "options": [
-    "The domestic carbon tax is symbolic, so the cross-border pillar is where the real effect lies.",
-    "Abatement costs differ across countries, so for a land- and resource-constrained economy some tonnes are genuinely cheaper abroad; the pillar complements domestic action and a domestic price rather than replacing them.",
-    "The three pillars are independent, so cross-border purchases can substitute for domestic action entirely.",
-    "Singapore has no domestic abatement options, so cross-border purchasing is the only available route."
+    "The domestic tax is largely symbolic, so the cross-border pillar is where the real effect sits.",
+    "Abatement costs genuinely differ across countries, so some tonnes are cheaper to buy abroad.",
+    "The three pillars are independent, so cross-border purchases can substitute for domestic action.",
+    "Singapore has no domestic abatement options at all, leaving cross-border purchasing as the only route."
    ],
    "answer": 1,
    "rationales": [
@@ -1346,10 +1346,10 @@
    "skill": "apply",
    "stem": "Singapore is characterised as a buyer country under Article 6. What does that imply about its negotiating interest in an implementation agreement?",
    "options": [
-    "It has no interest in Article 6.2 and will rely exclusively on the centralised mechanism.",
-    "It has a strong interest in binding the host to authorise and to adjust, because both its national target and its tax offset scheme depend on the units being usable.",
-    "It wants maximum flexibility for the host country to set its own rules case by case.",
-    "It prefers to avoid corresponding adjustments, since they reduce the supply of units."
+    "It has no interest in Article 6.2 at all and will rely solely on the centralised mechanism instead.",
+    "It has a strong interest in binding the host to authorise and adjust, since its own target depends on it.",
+    "It wants maximum flexibility for the host country to set its own terms on a case-by-case basis.",
+    "It prefers to avoid corresponding adjustments outright, since they reduce the supply of units."
    ],
    "answer": 1,
    "rationales": [
@@ -1369,10 +1369,10 @@
    "skill": "diagnose",
    "stem": "A host country's implementation agreement states that it shall apply a corresponding adjustment. Why does that particular wording matter to the buyer?",
    "options": [
-    "Because it converts the bilateral agreement into a multilateral instrument.",
-    "Because it shifts the obligation to make the adjustment onto the buyer country.",
-    "Because it creates an obligation rather than an intention, and the buyer's ability to use the units depends on the host being bound rather than merely willing.",
-    "Because it determines the price at which units will be transferred."
+    "Because that wording converts what was a bilateral agreement into a fully multilateral instrument.",
+    "Because that wording shifts the obligation to make the adjustment onto the buyer country instead.",
+    "Because it creates a binding obligation rather than a mere intention, protecting the buyer's use.",
+    "Because that particular wording is what actually determines the price at which units transfer."
    ],
    "answer": 2,
    "rationales": [
@@ -1392,10 +1392,10 @@
    "skill": "apply",
    "stem": "A host country authorises transfers of units from a wind farm that it is also counting towards its own national target, and applies no corresponding adjustment. Identify the full set of problems.",
    "options": [
-    "Only a double-counting problem, since the country retains the mitigation in its own accounts.",
-    "Only an additionality problem, since the wind farm was already part of the national plan.",
-    "No problem at all, since Article 6.2 is bilateral and countries may set their own terms.",
-    "Double counting internationally because no adjustment was made, and, if the country later does adjust, a shortfall against its own target; the accounting failure and the overselling risk are two sides of the same transaction."
+    "Only a double-counting problem, since the country still retains the mitigation in its own accounts.",
+    "Only an additionality problem, since the wind farm was already part of the national plan anyway.",
+    "No problem at all, since Article 6.2 is bilateral and countries may set their own terms freely.",
+    "Double counting now, and a shortfall against its own target later if it does eventually adjust."
    ],
    "answer": 3,
    "rationales": [
@@ -1415,10 +1415,10 @@
    "skill": "apply",
    "stem": "A company wants to know two things: whether the crediting programme it is buying from meets recognised integrity standards, and whether it may publicly describe itself as carbon neutral. Which body addresses which question?",
    "options": [
-    "ICVCM addresses the supply side, assessing whether crediting programmes and their methodologies meet its core principles; VCMI addresses the demand side, guiding how a company may credibly make claims.",
-    "VCMI addresses both, since it governs the whole relationship between companies and the market.",
-    "ICVCM governs claims while VCMI assesses supply integrity.",
-    "Neither: the standard body that issued the credits answers both questions itself."
+    "ICVCM handles the supply side, assessing programmes; VCMI handles the demand side, guiding claims.",
+    "VCMI addresses both questions, since it governs the whole relationship between firms and the market.",
+    "ICVCM governs public claims, while VCMI is the body that assesses supply-side integrity instead.",
+    "Neither body applies here; the standard body that issued the credits answers both questions itself."
    ],
    "answer": 0,
    "rationales": [
@@ -1438,10 +1438,10 @@
    "skill": "apply",
    "stem": "ICVCM has approved a standard body and one of its methodologies. A buyer asks whether this means an individual project issued under that methodology is of good quality. What is the correct answer?",
    "options": [
-    "Yes: approval of the methodology means every project issued under it meets the standard.",
-    "No, because ICVCM assesses only companies' claims rather than anything on the supply side.",
-    "Yes, provided an accredited verification body also verified the project.",
-    "No: the assessment covers the programme and the methodology, not individual projects, and project-level differentiation is the gap that carbon credit ratings agencies fill."
+    "Yes, since approval of the methodology means every project issued under it meets the standard.",
+    "No, since ICVCM only assesses companies' public claims rather than anything on the supply side.",
+    "Yes, provided an accredited verification body has also separately verified the project.",
+    "No, since the assessment covers the programme and methodology, not any individual project."
    ],
    "answer": 3,
    "rationales": [
@@ -1461,10 +1461,10 @@
    "skill": "apply",
    "stem": "A project developer submits monitoring data claiming 50,000 tonnes of reductions. Who checks that data, and on whose behalf?",
    "options": [
-    "An accredited third-party validation and verification body, operating like an auditor within the standard body's programme, before the standard body issues any credits.",
-    "The integrity council that assesses crediting programmes.",
-    "The host country government, as part of its national registry obligations.",
-    "A carbon credit ratings agency, as part of its project assessment."
+    "An accredited third-party verification body, acting as an auditor before credits are issued.",
+    "The integrity council that assesses crediting programmes broadly at a system-wide level.",
+    "The host country government, acting as part of its own national registry obligations here.",
+    "A carbon credit ratings agency, acting as part of its own independent project assessment."
    ],
    "answer": 0,
    "rationales": [
@@ -1484,10 +1484,10 @@
    "skill": "compare",
    "stem": "The course deliberately distinguishes a standard body from a registry. What is the distinction, and why does it matter?",
    "options": [
-    "Registries issue credits while standard bodies audit the projects behind them.",
-    "Registries are operated only by governments, while standard bodies are private.",
-    "The standard body governs methodologies and issues credits; the registry is the ledger recording issuance, transfer and retirement. Separating them makes clear that integrity sits with the governance, not the bookkeeping.",
-    "They are interchangeable terms for the same organisation."
+    "Registries issue the credits, while standard bodies separately audit the projects behind them.",
+    "Registries are run only by governments, while standard bodies are exclusively private entities.",
+    "The standard body governs methodologies and issues credits; the registry is just the ledger.",
+    "The two terms are simply interchangeable names for exactly the same kind of organisation."
    ],
    "answer": 2,
    "rationales": [
@@ -1507,10 +1507,10 @@
    "skill": "apply",
    "stem": "A single standard body governs many different methodologies. Why does that structure matter to a buyer assessing risk?",
    "options": [
-    "Because each standard body uses exactly one methodology, so the choice of issuer settles the methodology.",
-    "Because methodologies are set centrally by the UNFCCC and adopted identically by every standard body.",
-    "Because quality risk is largely methodology-specific: two credits from the same issuer can rest on very different rules, which is why methodologies are assessed separately from programmes.",
-    "It does not matter, because all credits from a single issuer are equivalent in quality."
+    "Because each and every standard body actually uses exactly one methodology, so the issuer settles it.",
+    "Because methodologies are set entirely centrally by the UNFCCC and adopted identically everywhere.",
+    "Because quality risk is largely methodology-specific, so credits from one issuer can still vary a lot.",
+    "It does not really matter at all, since all credits from a single issuer are equivalent in quality."
    ],
    "answer": 2,
    "rationales": [
@@ -1530,10 +1530,10 @@
    "skill": "diagnose",
    "stem": "Registries are numerous, incompletely populated and not interoperable, and Article 6 now adds government registries alongside them. What problem does this create, and what is the proposed response?",
    "options": [
-    "There are too few credits in circulation, and a meta-registry would expand issuance.",
-    "Registries charge excessive fees, and a meta-registry would introduce price competition.",
-    "Credits cannot be retired reliably, and a meta-registry would take over issuance and retirement centrally.",
-    "Information on issuance, transfer and use is fragmented across systems, making it hard to track a credit's status; a meta-registry aggregates across registries to provide a single consolidated view."
+    "There are simply too few credits in circulation, and a meta-registry would expand issuance.",
+    "Registries charge excessive fees, and a meta-registry would introduce genuine price competition.",
+    "Credits cannot be retired reliably, so a meta-registry would take over retirement centrally.",
+    "Information is fragmented across separate systems, and a meta-registry consolidates the view."
    ],
    "answer": 3,
    "rationales": [
@@ -1553,10 +1553,10 @@
    "skill": "compare",
    "stem": "Two meta-registry initiatives exist: one supported by public institutions and originating from a public programme, the other operated by a commercial data provider. What is the essential difference?",
    "options": [
-    "One is positioned as a public good providing shared infrastructure, while the other is a commercial product that monetises being the central source of truth.",
-    "The public one covers only Article 6 units while the private one covers only voluntary credits.",
-    "The public one issues credits directly while the private one only records them.",
-    "The private one operates as a standard body with its own methodologies."
+    "One is positioned as shared public infrastructure, the other as a commercial data product.",
+    "The public one covers only Article 6 units, while the private one covers only voluntary credits.",
+    "The public one issues credits directly, while the private one merely records them afterward.",
+    "The private one effectively operates as a standard body, with its own set of methodologies."
    ],
    "answer": 0,
    "rationales": [
@@ -1576,10 +1576,10 @@
    "skill": "apply",
    "stem": "The lecturer notes that carbon credit ratings agencies help make unglamorous projects more likely to be pursued. What is the mechanism?",
    "options": [
-    "They set the methodologies that standard bodies must adopt for such projects.",
-    "By differentiating quality at project level, they allow a well-executed but unmarketable project to be recognised and priced accordingly, instead of buyers defaulting to the project types that look best.",
-    "They provide direct subsidies to project types that struggle to attract buyers.",
-    "They issue credits for projects that standard bodies decline to cover."
+    "They actually set the methodologies that standard bodies must then adopt for these kinds of projects.",
+    "They differentiate quality at project level, letting an unmarketable but solid project be priced fairly.",
+    "They provide direct financial subsidies to exactly the project types that struggle to attract buyers.",
+    "They issue credits themselves for any projects that standard bodies have specifically declined to cover."
    ],
    "answer": 1,
    "rationales": [
@@ -1599,10 +1599,10 @@
    "skill": "diagnose",
    "stem": "A grid-connected solar farm is proposed in a country where solar is already the cheapest form of new generation and is being built without any carbon revenue. The developer applies for carbon credits. Which quality criterion is most at risk?",
    "options": [
-    "Robust quantification, because displaced grid emissions are difficult to calculate.",
-    "Additionality, because the project appears financially viable without credit revenue, so the reductions would most likely have happened anyway.",
-    "Permanence, because solar generation is intermittent and cannot guarantee continuous reductions.",
-    "Environmental and social safeguards, because utility-scale solar requires substantial land."
+    "Robust quantification, since displaced grid emissions are inherently difficult to calculate.",
+    "Additionality, since the project looks financially viable and so would likely proceed anyway.",
+    "Permanence, since intermittent solar generation cannot guarantee a continuous stream of reductions.",
+    "Environmental and social safeguards, since utility-scale solar requires a large amount of land."
    ],
    "answer": 1,
    "rationales": [
@@ -1622,10 +1622,10 @@
    "skill": "diagnose",
    "stem": "A hydroelectric project displaces coal-fired generation but requires flooding an entire valley, displacing a resident community and destroying habitat. Which criterion does it fail, and why does that matter if the carbon accounting is sound?",
    "options": [
-    "Environmental and social safeguards: the carbon arithmetic may be correct, but the activity causes other environmental and social harms that the criteria exist to prevent.",
-    "Additionality, because a project of this scale would proceed for power generation reasons regardless.",
-    "Permanence, because reservoir emissions may reverse the benefit over time.",
-    "It fails none of the criteria, since the emissions reduction is real and measurable."
+    "Environmental and social safeguards, since sound carbon arithmetic does not excuse other harms.",
+    "Additionality, since a project this large would likely proceed for power reasons regardless.",
+    "Permanence, since emissions from the reservoir may reverse the climate benefit over time.",
+    "It fails none of the criteria, since the emissions reduction itself is real and measurable."
    ],
    "answer": 0,
    "rationales": [
@@ -1645,10 +1645,10 @@
    "skill": "apply",
    "stem": "A reforestation project's forest burns down eight years after credits were issued and sold. What does the course say happens, and what does it reveal about how permanence is handled?",
    "options": [
-    "Issuers maintain a buffer pool, deliberately withholding a portion of credits as insurance against reversal, because permanence is managed as a risk rather than guaranteed.",
-    "All credits issued to the project are clawed back from the buyers who hold or retired them.",
-    "The project is reclassified as an avoidance project for its remaining crediting period.",
-    "The host country is required to make a corresponding adjustment to compensate."
+    "Issuers hold back a buffer pool at issuance, managing permanence as an insured risk, not a guarantee.",
+    "All credits issued to the project are clawed back from whoever holds or retired them.",
+    "The project is simply reclassified as an avoidance project for its remaining crediting period.",
+    "The host country is required to make a corresponding adjustment to compensate for the loss."
    ],
    "answer": 0,
    "rationales": [
@@ -1668,10 +1668,10 @@
    "skill": "apply",
    "stem": "A project's measurements carry significant uncertainty. Under the robust and conservative quantification criterion, how should the issuer respond, and what happens if the estimate later proves to have been too cautious?",
    "options": [
-    "Issue the central estimate now and top up later once the uncertainty resolves favourably.",
-    "Issue against the upper bound and adjust downward in later verification periods if necessary.",
-    "Suspend issuance entirely until the uncertainty has been eliminated.",
-    "Issue fewer credits to reflect the uncertainty, and accept that the shortfall is not topped up retrospectively, because conservatism deliberately errs towards under-issuance."
+    "Issue the central estimate now, and top up the shortfall later once uncertainty resolves.",
+    "Issue against the upper bound now, adjusting downward in later verification periods if needed.",
+    "Suspend issuance entirely until the underlying measurement uncertainty has been eliminated.",
+    "Issue fewer credits up front, and accept the shortfall is not topped up if it proves too cautious."
    ],
    "answer": 3,
    "rationales": [
@@ -1691,10 +1691,10 @@
    "skill": "compare",
    "stem": "What is the defining difference between the voluntary carbon market and a compliance market?",
    "options": [
-    "Only compliance markets maintain registries to track units.",
-    "The voluntary market operates only in developing countries while compliance markets operate in developed ones.",
-    "Participation in the voluntary market is discretionary, with no legal obligation to surrender anything, whereas compliance market participation is mandated by regulation.",
-    "Voluntary market credits are inherently of lower quality than compliance market units."
+    "Only compliance markets actually maintain formal registries to track the units that they issue.",
+    "The voluntary market only ever operates in developing countries, unlike compliance markets do.",
+    "Participation is discretionary in the voluntary market, but mandated by law in a compliance market.",
+    "Voluntary market credits are inherently of lower overall quality than compliance market units."
    ],
    "answer": 2,
    "rationales": [
@@ -1714,10 +1714,10 @@
    "skill": "apply",
    "stem": "A compliance scheme decides to accept certain crediting mechanism units against a capped share of liabilities. What is this development called, and what does it do to demand?",
    "options": [
-    "Convergence between the voluntary and compliance markets: it creates regulated, obligation-backed demand for eligible credits.",
-    "Retirement, which reduces the available supply and therefore demand.",
-    "Double counting, which has no effect on demand either way.",
-    "A meta-registry function, consolidating compliance and voluntary records."
+    "Convergence between the two markets, creating regulated, obligation-backed demand for credits.",
+    "Retirement, which simply reduces the available supply of units and therefore reduces demand too.",
+    "Double counting, which in this context has no real effect on demand in either direction.",
+    "A meta-registry function, consolidating compliance and voluntary market records together."
    ],
    "answer": 0,
    "rationales": [
@@ -1737,10 +1737,10 @@
    "skill": "diagnose",
    "stem": "Why did the voluntary carbon market emerge alongside the Clean Development Mechanism rather than simply being absorbed into it?",
    "options": [
-    "The CDM had no verification process, so buyers sought a market that did.",
-    "Bodies such as Gold Standard formed to improve on perceived weaknesses in CDM project quality, and the voluntary market could host methodologies the CDM excluded, notably avoided deforestation, as well as project types and locations that buyers wanted.",
-    "The CDM was shut down, leaving buyers with nowhere else to transact.",
-    "Governments mandated the creation of a parallel private market to supplement the CDM."
+    "Because the CDM had no verification process at all, so buyers sought a market that did.",
+    "Because bodies like Gold Standard sought better quality, and it could host methodologies CDM excluded.",
+    "Because the CDM was shut down entirely, leaving buyers with nowhere else to transact at all.",
+    "Because governments formally mandated the creation of a parallel private market alongside it."
    ],
    "answer": 1,
    "rationales": [
@@ -1760,10 +1760,10 @@
    "skill": "diagnose",
    "stem": "In 2023 voluntary market prices fell and demand contracted. What drove this, and what does it reveal about the nature of demand in this market?",
    "options": [
-    "Registries becoming interoperable, which exposed duplicate credits.",
-    "Sustained public criticism of credit integrity and ethical practice: because demand rests on buyers' confidence in the credibility of their claim, reputational risk translates directly into demand withdrawal.",
-    "A supply shortage that pushed buyers out of the market.",
-    "Regulatory prohibition of voluntary credit purchases in major markets."
+    "Registries becoming interoperable for the first time, which exposed a wave of duplicate credits.",
+    "Sustained public criticism of credit integrity, since demand here rests entirely on buyer confidence.",
+    "A sudden supply shortage that effectively pushed buyers out of the market altogether.",
+    "Outright regulatory prohibition of voluntary credit purchases across major markets."
    ],
    "answer": 1,
    "rationales": [
@@ -1783,10 +1783,10 @@
    "skill": "apply",
    "stem": "Why are retirements treated as a better read on voluntary market demand than transaction volume?",
    "options": [
-    "Retirement data is published faster than transaction data.",
-    "Transaction volume includes compliance market units, which distorts the picture.",
-    "Retired credits are cheaper, so retirement figures better reflect affordable demand.",
-    "Transaction volume includes intermediation and trading, whereas retirement is an irreversible cancellation of the claim that only a buyer actually using the credit has reason to make."
+    "Retirement data is simply published faster than the corresponding transaction data is.",
+    "Transaction volume includes compliance market units, which distorts the overall picture.",
+    "Retired credits are cheaper, so retirement figures better reflect genuinely affordable demand.",
+    "Volume includes repeat trading, while retirement is a one-time act only a real user would make."
    ],
    "answer": 3,
    "rationales": [
@@ -1806,10 +1806,10 @@
    "skill": "apply",
    "stem": "Three corporate approaches to using credits: (1) buy only at the end, once emissions cannot be reduced further; (2) buy consistently throughout the decarbonisation pathway; (3) buy whenever actual emissions exceed the internal target. Which is most exposed to the criticism that credits substitute for abatement, and why?",
    "options": [
-    "Approach 1, because it postpones any use of credits until the end of the pathway.",
-    "Approach 2, because continuous buying means credits are used every year regardless of performance.",
-    "None of them, since the three approaches are equivalent in substance and differ only in timing.",
-    "Approach 3, because purchases are triggered precisely by failure to hit the internal target, making credits a shortfall-filler rather than a complement to abatement."
+    "Approach 1, since it postpones any use of credits until the very end of the pathway.",
+    "Approach 2, since continuous buying means credits get used every single year regardless of performance.",
+    "None of them, since all three approaches are equivalent in substance and differ only in timing.",
+    "Approach 3, since purchases are triggered precisely by a failure to hit the internal target."
    ],
    "answer": 3,
    "rationales": [
