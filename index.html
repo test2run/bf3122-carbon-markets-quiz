@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BF3122 Carbon Markets — Applied Concept Quiz</title>
+<style>
+:root{
+  --bg:#f7f7f5; --panel:#ffffff; --ink:#1b1d1c; --muted:#6a6f6c;
+  --line:#e2e2dd; --line-strong:#cfcfc8;
+  --accent:#1f6b4a; --accent-soft:#e8f2ec; --accent-ink:#145137;
+  --good:#1f6b4a; --good-soft:#e8f2ec;
+  --bad:#a33b2c; --bad-soft:#f8ebe8;
+  --warn:#8a6d1f;
+  --radius:10px;
+  --shadow:0 1px 2px rgba(0,0,0,.05), 0 8px 24px -16px rgba(0,0,0,.25);
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161a; --panel:#1c1f24; --ink:#e8e9e7; --muted:#9aa0a0;
+    --line:#2b2f36; --line-strong:#3a3f48;
+    --accent:#5cbf93; --accent-soft:#16302a; --accent-ink:#8fd9b6;
+    --good:#5cbf93; --good-soft:#16302a;
+    --bad:#e2897a; --bad-soft:#3a201d;
+    --warn:#d9bb6a;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14161a; --panel:#1c1f24; --ink:#e8e9e7; --muted:#9aa0a0;
+  --line:#2b2f36; --line-strong:#3a3f48;
+  --accent:#5cbf93; --accent-soft:#16302a; --accent-ink:#8fd9b6;
+  --good:#5cbf93; --good-soft:#16302a;
+  --bad:#e2897a; --bad-soft:#3a201d;
+  --warn:#d9bb6a;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -16px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:780px; margin:0 auto; padding-inline:18px; padding-block:28px 72px}
+h1,h2,h3{line-height:1.25; margin:0}
+h1{font-size:1.45rem; letter-spacing:-.01em}
+h2{font-size:1.1rem; letter-spacing:-.005em}
+p{margin:0}
+a{color:var(--accent-ink)}
+hr{border:0; border-top:1px solid var(--line); margin:22px 0}
+
+header.top{display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:6px}
+.sub{color:var(--muted); font-size:.875rem; margin-top:5px}
+.ghost{
+  background:none; border:1px solid var(--line-strong); color:var(--muted);
+  border-radius:8px; padding:5px 10px; font-size:.8rem; cursor:pointer; white-space:nowrap;
+}
+.ghost:hover{color:var(--ink); border-color:var(--ink)}
+
+.card{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:20px; margin-top:18px}
+.card h2{margin-bottom:4px}
+.card .hint{color:var(--muted); font-size:.85rem; margin-bottom:14px}
+
+.grid{display:grid; gap:9px}
+@media(min-width:620px){ .grid.two{grid-template-columns:1fr 1fr} }
+
+label.check{
+  display:flex; gap:10px; align-items:flex-start;
+  border:1px solid var(--line); border-radius:8px; padding:10px 12px; cursor:pointer; background:transparent;
+}
+label.check:hover{border-color:var(--line-strong)}
+label.check input{margin-top:3px; accent-color:var(--accent); flex:none}
+label.check .t{font-size:.9rem}
+label.check .c{color:var(--muted); font-size:.78rem; font-variant-numeric:tabular-nums}
+
+.seg{display:flex; flex-wrap:wrap; gap:6px}
+.seg button{
+  border:1px solid var(--line-strong); background:transparent; color:var(--muted);
+  padding:6px 12px; border-radius:999px; font-size:.82rem; cursor:pointer;
+}
+.seg button[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink); font-weight:600}
+
+.row{display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between}
+.actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:18px}
+button.primary{
+  background:var(--accent); color:#fff; border:1px solid var(--accent);
+  padding:10px 20px; border-radius:8px; font-size:.95rem; font-weight:600; cursor:pointer;
+}
+:root[data-theme="dark"] button.primary, :root:not([data-theme="light"]) button.primary{color:#0d1a15}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]) button.primary{color:#fff} }
+button.primary:hover{filter:brightness(1.06)}
+button.primary:disabled{opacity:.45; cursor:not-allowed; filter:none}
+button.sec{
+  background:transparent; color:var(--ink); border:1px solid var(--line-strong);
+  padding:10px 18px; border-radius:8px; font-size:.95rem; cursor:pointer;
+}
+button.sec:hover{border-color:var(--ink)}
+button.sec:disabled{opacity:.4; cursor:not-allowed}
+
+.bar{height:4px; background:var(--line); border-radius:99px; overflow:hidden; margin:14px 0 0}
+.bar > i{display:block; height:100%; background:var(--accent); transition:width .25s ease}
+
+.qmeta{display:flex; flex-wrap:wrap; gap:8px; align-items:center; color:var(--muted); font-size:.78rem; margin-bottom:12px}
+.tag{border:1px solid var(--line); border-radius:999px; padding:2px 9px; white-space:nowrap}
+.tag.d3{border-color:var(--warn); color:var(--warn)}
+.stem{font-size:1.06rem; line-height:1.5; margin-bottom:16px}
+
+.opts{display:grid; gap:9px}
+.opt{
+  display:grid; grid-template-columns:auto 1fr; gap:11px; align-items:start; width:100%; text-align:left;
+  border:1px solid var(--line); background:var(--panel); color:var(--ink);
+  border-radius:9px; padding:12px 14px; cursor:pointer; font-size:.94rem; line-height:1.45;
+  font-family:inherit;
+}
+.opt:hover:not(:disabled){border-color:var(--line-strong); background:var(--bg)}
+.opt .k{
+  font:600 .74rem/1.5 var(--mono); color:var(--muted);
+  border:1px solid var(--line-strong); border-radius:5px; width:22px; height:22px;
+  display:grid; place-items:center; flex:none; margin-top:1px;
+}
+.opt[aria-pressed="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.opt[aria-pressed="true"] .k{border-color:var(--accent); color:var(--accent-ink)}
+.opt.correct{border-color:var(--good); background:var(--good-soft)}
+.opt.correct .k{border-color:var(--good); color:var(--good)}
+.opt.wrong{border-color:var(--bad); background:var(--bad-soft)}
+.opt.wrong .k{border-color:var(--bad); color:var(--bad)}
+.opt:disabled{cursor:default; opacity:1}
+
+.why{margin-top:14px; border-top:1px solid var(--line); padding-top:14px; display:grid; gap:9px}
+.why .r{font-size:.875rem; line-height:1.5; color:var(--muted); display:grid; grid-template-columns:auto 1fr; gap:10px}
+.why .r b{font:600 .74rem/1.6 var(--mono); color:var(--muted)}
+.why .r.hit{color:var(--ink)}
+.why .r.hit b{color:var(--good)}
+.take{
+  margin-top:4px; background:var(--accent-soft); border-left:3px solid var(--accent);
+  border-radius:0 7px 7px 0; padding:10px 13px; font-size:.875rem; color:var(--accent-ink);
+}
+.src{color:var(--muted); font-size:.75rem; font-family:var(--mono); margin-top:10px}
+
+.score{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap}
+.score .big{font-size:2.6rem; font-weight:700; letter-spacing:-.02em; line-height:1}
+.score .pct{color:var(--muted); font-size:.95rem}
+
+.tbreak{display:grid; gap:10px; margin-top:6px}
+.tb{display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:center}
+.tb .n{font-size:.88rem}
+.tb .v{font-size:.8rem; color:var(--muted); font-variant-numeric:tabular-nums}
+.tb .track{grid-column:1/-1; height:6px; background:var(--line); border-radius:99px; overflow:hidden}
+.tb .track > i{display:block; height:100%; border-radius:99px}
+
+.rev{border-top:1px solid var(--line); padding-top:14px; margin-top:14px}
+.rev summary{cursor:pointer; font-size:.92rem; padding:4px 0; list-style:none; display:flex; gap:10px; align-items:flex-start}
+.rev summary::-webkit-details-marker{display:none}
+.rev summary .mark{font:600 .72rem/1.6 var(--mono); border-radius:5px; padding:1px 6px; flex:none; margin-top:2px}
+.rev summary .mark.ok{color:var(--good); border:1px solid var(--good)}
+.rev summary .mark.no{color:var(--bad); border:1px solid var(--bad)}
+.rev[open] summary{font-weight:600}
+.rev .body{padding:12px 0 6px 0}
+
+.note{color:var(--muted); font-size:.82rem}
+.err{border-left:3px solid var(--bad); background:var(--bad-soft); padding:12px 14px; border-radius:0 7px 7px 0; font-size:.9rem}
+.kbd{font:600 .72rem/1.5 var(--mono); border:1px solid var(--line-strong); border-radius:4px; padding:1px 5px; color:var(--muted)}
+footer{margin-top:30px; color:var(--muted); font-size:.78rem; text-align:center}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>BF3122 — Applied Concept Quiz</h1>
+      <p class="sub" id="subtitle">Carbon Markets &amp; Pricing Fundamentals · Weeks 1–4</p>
+    </div>
+    <button class="ghost" id="themeBtn" type="button" title="Switch theme">Theme</button>
+  </header>
+
+  <main id="app">
+    <div class="card"><p class="note">Loading questions…</p></div>
+  </main>
+
+  <footer>Every question tests applied understanding, not recall of statistics.</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
